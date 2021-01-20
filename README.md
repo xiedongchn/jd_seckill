@@ -81,6 +81,7 @@
 `pip install -r requirements.txt`
 - 如果国内安装第三方库比较慢，可以使用以下指令进行清华源加速
 `pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/`
+`pip install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com`
 
 ## 使用教程  
 #### 1. 推荐Chrome浏览器
