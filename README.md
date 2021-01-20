@@ -80,7 +80,8 @@
 - 需要使用到的库已经放在requirements.txt，使用pip安装的可以使用指令  
 `pip install -r requirements.txt`
 - 如果国内安装第三方库比较慢，可以使用以下指令进行清华源加速
-`pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/`
+`pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple`
+
 `pip install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com`
 
 ## 使用教程  
@@ -89,7 +90,7 @@
 #### 3. 填写config.ini配置信息 
 (1)`eid`和`fp`找个普通商品随便下单,然后抓包就能看到,这两个值可以填固定的 
 > 随便找一个商品下单，然后进入结算页面，打开浏览器的调试窗口，切换到控制台Tab页，在控制台中输入变量`_JdTdudfp`，即可从输出的Json中获取`eid`和`fp`。  
-> 不会的话参考原作者的issue https://github.com/zhou-xiaojun/jd_mask/issues/22
+> 不会的话参：https://blog.csdn.net/like_java_/article/details/111998209
 
 (2)`sku_id`,`DEFAULT_USER_AGENT` 
 > `sku_id`已经按照茅台的填好。
